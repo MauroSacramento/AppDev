@@ -3,7 +3,8 @@ const app = express()
 const routes = require('./router')
 const mongoose = require('mongoose');
 
-//mongoose.connect()
+//9Dfm33gHpdSa3eJ
+//mongoose.connect("mongodb+srv://omnistack:9Dfm33gHpdSa3eJ@cluster0.pny26.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 app.use(express.json());
 app.use("/api", routes)
